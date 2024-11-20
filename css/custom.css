@@ -14,3 +14,12 @@ span {
 .nav-link {
     color: white;
 }
+
+.btn {
+    color:green; 
+    width: 120px; 
+    height: 40px; 
+    font-size: 18px; 
+    font-family: Roboto; 
+    font-weight: bold;
+}
