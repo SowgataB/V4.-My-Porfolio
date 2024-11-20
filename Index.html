@@ -8,15 +8,33 @@
     <link rel="stylesheet" href="./css/custom.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-blue">
-        <div>
-            <a href=""></a>
-                <button><img src="" alt=""></button>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-blue shadow-sm">
+        <div class="container-fluid mt-2">
+            <a class="navbar-brand mx-3">
+                <img src="./images/Logo.png" alt="logo" class="img-fluid" style="max-width: 100%; height: auto;">
+            </a>
+
+            <!-- Navbar Burger Icon -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Menu items-->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav text-center" style="font-size: 16.33px; font-family: Roboto;">
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:white;"><span style="color: green;">1.</span> Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:white;"><span style="color: green;">2.</span> Portfolio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:white;"><span style="color: green;">3.</span> About me</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="color:white;"><span style="color: green;">4.</span>Testimonials</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Me button aligned to the right -->
+            <div class="d-flex">
+                <button class="btn btn-outline-green" style="color:green; width: 120px; height: 60px;font-size: 20px; font-family: Roboto; " type="button">Resume</button>
+            </div>
         </div>
-    </nav>
-
-
-
 
 
     <link rel="stylesheet" href="./js/bootstrap.bundle.js">
