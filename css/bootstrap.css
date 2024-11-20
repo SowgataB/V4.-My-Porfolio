@@ -3052,23 +3052,6 @@ textarea.form-control-lg {
   border-color: var(--bs-btn-disabled-border-color);
   opacity: var(--bs-btn-disabled-opacity);
 }
-.btn-custom {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #5E3BEE;
-  --bs-btn-border-color:  #5E3BEE;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg:  #5E3BEE;
-  --bs-btn-hover-border-color:  #5E3BEE;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg:  #5E3BEE;
-  --bs-btn-active-border-color:  #5E3BEE;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg:  #5E3BEE;
-  --bs-btn-disabled-border-color:  #5E3BEE;
-  --bs-btn-border-radius: 5.33px;
-}
 
 .btn-primary {
   --bs-btn-color: #fff;
@@ -3205,12 +3188,6 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: #212529;
   --bs-btn-disabled-border-color: #212529;
 }
-
-.btn-outline-primary:nth-child(1) {
-  border-color: #5E3BEE !important;
-}
-
-
 
 .btn-outline-primary {
   --bs-btn-color: #0d6efd;
@@ -6889,9 +6866,8 @@ textarea.form-control-lg {
   background-color: RGBA(var(--bs-warning-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-
-.text-bg-custom {
-  color: darkcyan !important;
+.text-bg-danger {
+  color: #fff !important;
   background-color: RGBA(var(--bs-danger-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
@@ -8827,16 +8803,6 @@ textarea.form-control-lg {
   --bs-link-underline-opacity: 1;
 }
 
-.bg-custom1 {
-  --bs-bg-opacity: 1;
-  background-color:#F5FCFF !important;
-}
-
-.bg-custom2 {
-  --bs-bg-opacity: 1;
-  background-color:#ECFFFD !important;
-}
-
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
@@ -8867,11 +8833,6 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-custom {
-  --bs-bg-opacity: 1;
-  background-color: skyblue !important;
-}
-
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
@@ -8880,6 +8841,11 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-blue {
+  --bs-bg-opacity: 1;
+  background-color: rgba(10, 25, 47, 0.85) !important;
 }
 
 .bg-black {
