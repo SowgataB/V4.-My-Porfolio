@@ -8,7 +8,7 @@ img{
 }
 
 span {
-    color: green;
+    color: #64ffda;
 }
 
 .nav-link {
@@ -16,7 +16,7 @@ span {
 }
 
 .btn {
-    color:green; 
+    color: #64ffda; 
     width: 120px; 
     height: 40px; 
     font-size: 18px; 
@@ -26,4 +26,11 @@ span {
 .img-fluid{
     width: 90px;
     height: 90px;
+}
+
+h1 {
+    margin: 100px 0px 30px 450px;
+    color: #64ffda;
+    font-family: monospace;
+    font-size: 17px;
 }
