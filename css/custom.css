@@ -9,6 +9,7 @@ img{
 
 span {
     color: #64ffda;
+    padding: 10px;
 }
 
 .nav-link {
@@ -23,14 +24,31 @@ span {
     font-family: Roboto; 
     font-weight: bold;
 }
+
 .img-fluid{
     width: 90px;
     height: 90px;
 }
 
-h1 {
+.h1 {
     margin: 100px 0px 30px 450px;
     color: #64ffda;
     font-family: monospace;
     font-size: 17px;
+    font-weight: 400;
+}
+
+p {
+    margin: 0px 0px 30px 450px;
+    color: #64ffda;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.custom1{
+    font-size: 16.33px;
+    display: flex;
+    font-family: Roboto;
+    justify-content: flex-end;
 }
