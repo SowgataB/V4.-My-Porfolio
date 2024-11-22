@@ -23,3 +23,7 @@ span {
     font-family: Roboto; 
     font-weight: bold;
 }
+.img-fluid{
+    width: 90px;
+    height: 90px;
+}
