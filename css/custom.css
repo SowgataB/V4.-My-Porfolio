@@ -68,3 +68,17 @@ span {
     font-weight: 600;
     line-height: 0.9;
 }
+
+.p1{
+    margin: 20px 0px 50px 450px;
+    color: white;
+    font-family: 'Fira code';
+    font-size: 18px;
+    font-weight: 100px;
+    line-height: 1;
+    max-width: 750px;
+}
+
+button a {
+    color: #64ffda;
+}
