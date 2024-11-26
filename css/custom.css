@@ -94,8 +94,17 @@ h1 {
     color:#64ffda
 }
 
-img {
+.col-sm-12 img {
     width: 400px;
-    height: 400px;
+    height: 450px;
+    margin-left: 100px;
+}
 
+h2 {
+    margin: 20px 0px 30px 550px;
+    color: whitesmoke;
+    font-family: 'fira sans';
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 300;
 }
