@@ -2,10 +2,11 @@ body{
     overflow-x: hidden;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+.navbar img{
+    width: 90px;
+    height: 90px;
 }
+
 
 span {
     color: #64ffda;
@@ -25,11 +26,6 @@ span {
     font-size: 18px; 
     font-family: Roboto; 
     font-weight: bold;
-}
-
-.img-fluid{
-    width: 90px;
-    height: 90px;
 }
 
 .d-flex{
@@ -81,4 +77,25 @@ span {
 
 button a {
     color: #64ffda;
+}
+
+h1 {
+    margin: 20px 0px 30px 550px;
+    color: #ccd6f6;
+    font-family: 'fira mono';
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.hr1 {
+    width: 30%;
+    margin: -15px 0px 0px 220px; 
+    color:#64ffda
+}
+
+img {
+    width: 400px;
+    height: 400px;
+
 }
